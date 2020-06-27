@@ -1,0 +1,89 @@
+Helooo guysss......
+Ya....iam here with some intresting topic for u ....
+Now a days eloctronic devices are playing a major role in ou life.To say frankly we are too addicted to them,and offcourse we cant live without
+them right. 
+ya this is well known to everyone.WE are habbituated to eloctronic appliances ...for sure right,so you people are giving much importance 
+to these devices ...guyss not only using of these devices.... u should aware of each and  very eloctronic appliances to monitor urself.
+so genarally in every home,classes,offices,every working places etc...we are under electronic devices.So guyss not only using of such appliances 
+we should know how to save and not to waste electricity by this appliances.
+Here in every working place many of them busy in their own works and they wont check whether the electronic devices are ON/OFF even they 
+leave that particular place.so this should not happen...
+to overcome these type of situations .....every thing is developed in this modern days.
+So we all know about sensors right.
+BY the sensors we can save electricity and not to waste it frequently.So there will be a sensors like it identify whether the person is there 
+in a particular room or not ......so if the person is not in that particular room then the electronic appliances such as fan,airconditioners
+lights etc will stop automatically.this will be very complicated.
+
+Those sensors are:
+
+The Passive Infrared (PIR) sensor is used to detect the presence of human.
+But this detects the human only if they are in motion. ... The Grid-EYE sensor detects the human using the infrared 
+radiation radiated by the human body. Every human radiates the infrared energy of specific wavelength range.
+
+There are three sensors used for the automationprocess. when a person crosses the PIR sensor it will
+sense the person and occupancy sensor will starts thecounting. This is displayed in the LCD usingArduino program. After that, the fan and light will
+switch on automatically as soon as the persons aredetected by both the sensors. Thermistor works onthe common fact as the temperature increases the 
+output voltage across the diode increaseswhereas the rotational speed will be simultaneouslyincreases. 
+When the system is placed on LDR, theplace will appear dark. Then the signal will be send to Arduino which is connected to the gear motor.
+
+1. PIR SENSOR:
+ A Passive Infrared Sensor is an electronic sensorthat measures infrared(IR) light radiating from objects in its field of view. They are most often used
+in PIR based motion detectors. PIR is used to sense the movement of people by detecting the heat energy radiated from the body. Usually this radiation is
+invisible to the human eye because it radiates at infrared wavelengths, but it can be detected by electronic devices designed for such a purpose.
+
+2 .OCCUPANCY SENSOR:
+ An occupancy sensor is a lighting control device that detects occupancy and count the persons inside the room and send the signal to the Arduino.
+ The exact count of the persons will displayed in the LCD module the L293D bridge. Gear motor will help thescreens to move in both forward and reverse direction.
+
+TEMPERATURE SENSOR:
+Temperature sensor is a device, typically inArduino, LM35 temperature sensor is used forsensing Environment temperature which gives 1
+degree temperature on every 10mv changes it outputpin.
+  Characteristics
+LM35 sensor works on the basis of the common fact,as temperature increases, the voltage across a diode increases at a known rate. The IC has output of10mv/degree centigrade. In theoretical
+experimentation when the temperature is 45 degreethen the output of sensor will be 450mv or 0.45v .Thesensed temperature will be the input for the
+microcontroller ATMEGA328 such thatmicrocontroller is programmed using ARDUINOsoftware. Based on the program, the driver circuit
+will rotate the fan. The room temperature willdisplayed using LCD.
+
+4. LCD MODULE:
+ LCD-Liquid Crystal Display is an electronic device for displaying text or references. The LCD display is interfaced with Arduino to display the
+count of persons and temperature values. 16x2 LCD display that means 2 rows, each of 16 characters. LCD’s are economical and easily programmable and
+can easily display special and conventional cases.LCD makes the system user-friendly. 
+
+5 .LDR:
+ It is a passive device working with the principle of photo conductivity. The resistance of the photoresistor decreases
+with increasing incident light intensity. When the system is placed on LDR, the place will appear dark.
+Then the signal will be send to Arduino which is connecte d to the gear motor through the L293D bridge. Gear motor will help the screens to move in
+both forward and reverse direction.
+
+6. FEATURES OF ARDUINO:
+ The operating voltage of ATMEGA 328 is 5V.The recommended input voltage is 7-12V and
+limited input voltage is 6-20V. There are 14 digital input output pins and 6 analog input pins. DC current
+per I/O pins is about 40mA, DC current for 3.3V pin is about 50mA. Flash memory is 16KB for ATMEGA168 and for ATMEGA328 is 32KB of
+which 2KB used by bootloader. SRAM for ATMEGA168 is 1KB and for ATMEGA328 is 2KB.EEPROM is about 512 bytes for ATMEGA168, and
+1KB for ATMEGA328. The clock speed is 16MH.
+
+7. RELAY:
+ Relays are electrically controlled switches. In usual type, a coil pulls in an armature when sufficient
+coil current flows. Relays are available for dc or ac excitation, and coil voltages from 5 volts up to 110
+volts are common. The electrical relay offers a simple on / off switching action in response to a control
+signal. When a current flows through the coil of wire a magnetic field is produced.
+
+8.L293D(H-BRIDGE):The H-bridge is an electronic circuit that enables a voltage to be applied across a load in either
+direction. These circuit used in s to run forwards and backwards. Most DC-to-AC
+converters, most AC-to-AC converters, DC-toDC push pull converter, most motor controllers, and
+many other kinds of power electronics use H bridges.Here, H-bridge is used as a bridge between Arduino
+and Gear motor. The signal will be send to arduino which is connected to the gear motor through the
+L293D bridge. This will allow the motor to rotate in forward and reverse directions.
+IV. CONCLUSION:
+ In this project, we instantly infers the power wastage in the class rooms. The knowledge derived
+from our estimation can enable many variable applications for social good such as effective
+utilization of the available power and we consider our project as a contribution for developing smart city.Thus we address the problem by establishing a smart
+class room. By observing the above details, we conclude that this techniques can also be
+implemented at collage level, Institute level. Which we will going to design a new project that is “SMART CLASSROOM”.
+
+And mobile app can be developed to receive notifications when the lights or fans etc is ON when the person is not there.
+This is of about smart classroom.
+
+
+
+
